@@ -52,10 +52,8 @@ function contains(item, list, cb) {
     if (item === list[i]){
       return true;
     }
-    else{
-      return false;
-    }
   }
+  return false;
 }
 
 /* STRETCH PROBLEM */
